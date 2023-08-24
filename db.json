@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "name": "Kate Miller",
+      "email": "millerr.kate@gmail.com",
+      "password": "q1w2e3r4t5",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "maor",
+      "email": "maorfl14@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Microsoft Earphones",
+      "price": 80,
+      "category": "Headphones",
+      "description": "The Microsoft new earphones with high quality",
+      "image": "/images/Microsoft_Earphones.png"
+    },
+    {
+      "name": "Microsoft Headphones2",
+      "price": 250,
+      "category": "Headphones",
+      "description": "The Microsoft new headphones with high quality",
+      "image": "/images/Microsoft_Headphones.png",
+      "id": 2
+    },
+    {
+      "name": "Laptop",
+      "price": 12345,
+      "category": "Laptop",
+      "description": "Laptop",
+      "image": "",
+      "id": 4
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "id": 1,
+          "name": "Microsoft Earphones",
+          "price": 80,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/images/Microsoft_Earphones.png",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "products": [
+        {
+          "name": "Microsoft Headphones2",
+          "price": 250,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/images/Microsoft_Headphones.png",
+          "id": 2
+        }
+      ],
+      "active": true,
+      "id": 2
+    }
+  ]
+}
